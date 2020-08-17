@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  padding:5px;
   pointer-events: none;
 }
 
@@ -35,4 +35,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app__form{
+  padding:20px;
+  position: fixed;
+  bottom:0px;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width:100%;
 }
